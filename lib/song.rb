@@ -16,15 +16,15 @@ class Song
     @@artists << artist 
   end 
   
-  def count 
+  def self.count 
     @@count
   end
   
-  def genres 
+  def self.genres 
     @@genre = @@genre.uniq
   end 
   
-  def artists
+  def self.artists
     @@artists = @@artists.uniq 
   end 
 end 
